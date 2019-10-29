@@ -1,10 +1,11 @@
 package ThreadPoolerServer;
 
+import java.io.IOException;
 import java.util.HashMap;
 
 public abstract class Response {
 	
-	private HashMap<Integer, String> responseSatus;
+   HashMap<Integer, String> responseSatus;
 	
 	public Response() {
 		responseSatus = new HashMap<Integer, String>();
@@ -14,5 +15,5 @@ public abstract class Response {
 		responseSatus.put(500, "Internal server error");
 	}
 	
-	public abstract byte[] get();
+	public abstract byte[] get() throws IOException;
 }
