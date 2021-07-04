@@ -1,8 +1,8 @@
 # ThreadPool
-Thread pool in Java as a simulation of a house automation.
+Thread pool exercise in Java as a simulation of a house automation.
 
 The exercise is a multi-threaded web server with thread-pooling implemented in Java.
-Bonus: Added proper HTTP/1.1 keep-alive behavior to your implementation based on the http-client's capabilities exposed through its request headers.
+Bonus: Added a proper HTTP/1.1 keep-alive behavior to the implementation based on the http-client's capabilities exposed through its request headers.
 Additionally, a JavaScript application simulating house automation: pressing a button on a control panel would visually turn on a light, change the temperature or
 close the curtains.
 
